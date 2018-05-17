@@ -13,3 +13,10 @@ The secure element is especially built for ST-Micro's B-L475E-IOT01A-STM32L4 Dis
 Software
 ---
 
+Essentially there are two distinctive libraries. 
+
+One is the Trezor-Crypto a collection of crypto libs and algorithms of importance for any kind of blockchain and public ledger settlement and payment system. In the specific case also used to give uncompromisable identities to hardware devices and to protect the integrity of any kind of data.
+
+One is the Crypto-Auth library a collection of drivers for the hardware crypto accelerator chips produced by Atmel. On these temper proof ICs important crypto algorithms like hashing, true random number generation, elliptic curves, Diffie-Hellman key exchanges, key storage, et al. are operated strictly off the bus and hardware accelerated.
+
+
