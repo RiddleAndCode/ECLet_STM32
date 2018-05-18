@@ -42,23 +42,40 @@ Open the Board submenu from the Tools menu and select the Discovery series of bo
 <img alt="Raspberry Kernel I2C Confirmed"
      src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/Screen%20Shot%202018-05-18%20at%2011.16.31.png"/>
      
+Select the board part number.
+     
 <img alt="Raspberry Kernel I2C Confirmed"
      src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/Screen%20Shot%202018-05-18%20at%2011.21.32.png"/>
+     
+Select the serial interface.
      
 <img alt="Raspberry Kernel I2C Confirmed"
      src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/Screen%20Shot%202018-05-18%20at%2011.22.59.png"/>
      
+Select USB interface.
+     
 <img alt="Raspberry Kernel I2C Confirmed"
      src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/Screen%20Shot%202018-05-18%20at%2011.23.10.png"/>
+     
+Select uplink method.
      
 <img alt="Raspberry Kernel I2C Confirmed"
      src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/Screen%20Shot%202018-05-18%20at%2011.23.37.png"/>
      
+Select optimize method.
+     
 <img alt="Raspberry Kernel I2C Confirmed"
      src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/Screen%20Shot%202018-05-18%20at%2011.23.43.png"/>
      
+Select the port the Arduino board is connected to.
+     
 <img alt="Raspberry Kernel I2C Confirmed"
      src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/Screen%20Shot%202018-05-18%20at%2011.28.02.png"/>
+     
+ 
+
+Connect Secure Element to STM32-Discovery-IoT Board
+---
      
 <img alt="Raspberry Kernel I2C Confirmed"
      src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/secure_element_2_stm32_iot_discovery.png"/>
