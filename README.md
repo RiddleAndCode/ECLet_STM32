@@ -102,7 +102,7 @@ Test Environment and Security Hardware
 
 To test the functionality of our setup start with a simple program create true random numbers. To be assured that our TRNG ( true number generator) is trustworthy the random command will be delegated to the secure element.
 
-Open a new file inside the Arduino IDE. Load the Sketch rnc_crypto_random from the Arduino library or open a new file and save it under the name of your choice.
+Open a new file inside the Arduino IDE. Load the Sketch rnc_crypto_random from the Arduino library or open a new file and save it under the name of your choice. Copy and replace the code you already fine in your new sketch window. Save the file again.
 
 ```
 /* Load all relevant driver files to directly 
@@ -190,6 +190,18 @@ Before you run it you should make an important change to the Arduino IDE.
 Inside the Preferences menu activate "Show verbose output during:" 
 compilation and output. Also activeate "All" for the "Compiler Warnings".
 Save the changes made to the prefrences.
+
+
+<img alt="Raspberry Kernel I2C Confirmed"
+     src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/Screen%20Shot%202018-05-19%20at%2020.28.05.png"/>
+     
+
+To run the code we first have to comopile it and then upload the resulting .bin file via ST-Link to the Discovery board. TZhe Arduino IDE handles this for us. To compile and upload the code the second button to the top-left part of the sketch wiindow has to be clicked. Compiling and uploading will then take a while. Cause we've opted for verbose output we can closely follow the process. During the compilation it is recommended to also activate the built-in Serial Monito of the Arduino IDE. To Accomplish this click the top-right button inside the sketch window. The moment the upload has succeeded the Serial Monitor will show the resulting output of the command operations. From time to time on will have to press the black button on the Discovery board itself to see the full result. Keep in mind that we upoload a new firmware to the board when we do a compile-upload cycle. So it happens from time to time that our code allready stzarts producing results befor the board is fully ready. 
+
+<img alt="Raspberry Kernel I2C Confirmed"
+     src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/Screen%20Shot%202018-05-19%20at%2020.28.51.png"/>
+
+
 
 
 
