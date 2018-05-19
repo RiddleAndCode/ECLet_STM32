@@ -202,7 +202,9 @@ To run the code we first have to comopile it and then upload the resulting .bin 
      src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/Screen%20Shot%202018-05-19%20at%2020.28.51.png"/>
 
 
+You can find more examples inside the folder of the very same name.
 
+Basically the Arduino Examples have to be put into the Arduino Folder on your host computing system and the two library files "CryptoAuthLib-arduino" and "trezor-crypto" hav to put i"nto the folder "libraries" inside the same Arduino folder. In case it doesn't ecist create on, first.
 
 
 
