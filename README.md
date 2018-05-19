@@ -88,4 +88,9 @@ To avoid mixing the pins up a basic distinction was made. Female pins are connec
      
 <img alt="Raspberry Kernel I2C Confirmed"
      src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/IMG_0423.jpg"/>
+     
+     
+Next connect the board via USB to your host computer. The Discovery board offers two different USB connectors. One for programming the device via ST-Link, the other one for debugging via J-Link. The board also owns a direct programming J-Link connector foe Segger's J-Link programmers. It is meant for industrial production of Discovery board derived devices. Therefore we ignore it.
+
+
 
