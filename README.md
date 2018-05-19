@@ -76,6 +76,16 @@ Select the port the Arduino board is connected to.
 
 Connect Secure Element to STM32-Discovery-IoT Board
 ---
+
+The Secure Element was built witha dual purpose in mind. To extend all Arduino UNO R3 pin compliant Amker boards and all Raspberry Pi pin compliant boards. Accordingly one has to take care to use the right one.
+
+To avoid mixing the pins up a basic distinction was made. Female pins are connectors to Raspbery Pis and male connectors are pins to be connected Uno R3 compliant devices. THe STM32L475 belongs to the Arduino group of boards. The pin connection scheme is as follows:
      
 <img alt="Raspberry Kernel I2C Confirmed"
      src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/secure_element_2_stm32_iot_discovery.png"/>
+     
+ Check that your conected board looks like this:
+     
+<img alt="Raspberry Kernel I2C Confirmed"
+     src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/IMG_0423.jpg"/>
+
