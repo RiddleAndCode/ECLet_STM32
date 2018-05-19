@@ -104,7 +104,8 @@ To test the functionality of our setup start with a simple program create true r
 
 Open a new file inside the Arduino IDE. Load the Sketch rnc_crypto_random from the Arduino library or open a new file and save it under the name of your choice.
 
-````/* Load all relevant driver files to directly 
+```
+/* Load all relevant driver files to directly 
  *  communicate with the secure element 
  */
 
@@ -183,8 +184,14 @@ void loop() {
   // nothing to be done here
 
 }
+
 ```
-Test Environment and Security Hardware
+Before you run it you should make an important change to the Arduino IDE. 
+Inside the Preferences menu activate "Show verbose output during:" 
+compilation and output. Also activeate "All" for the "Compiler Warnings".
+Save the changes made to the prefrences.
+
+
 
 
 
