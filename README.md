@@ -92,5 +92,20 @@ To avoid mixing the pins up a basic distinction was made. Female pins are connec
      
 Next connect the board via USB to your host computer. The Discovery board offers two different USB connectors. One for programming the device via ST-Link, the other one for debugging via J-Link. The board also owns a direct programming J-Link connector foe Segger's J-Link programmers. It is meant for industrial production of Discovery board derived devices. Therefore we ignore it.
 
+<img alt="Raspberry Kernel I2C Confirmed"
+     src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/stm32_iot_discovery_st-Link_connect.png"/>
+     
+Once the development environmen is set up and the hardware devices are connected to the host system restart the Arduino IDE
+
+Test Environment and Security Hardware
+---
+
+To test the functionality of our setup start with a simple program create true random numbers. To be assured that our TRNG ( true number generator) is trustworthy the random command will be delegated to the secure element.
+
+Open a new file inside the Arduino IDE.
+
+
+
+
 
 
