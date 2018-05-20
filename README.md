@@ -196,7 +196,7 @@ Save the changes made to the prefrences.
      src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/Screen%20Shot%202018-05-19%20at%2020.28.05.png"/>
      
 
-To run the code we first have to comopile it and then upload the resulting .bin file via ST-Link to the Discovery board. TZhe Arduino IDE handles this for us. To compile and upload the code the second button to the top-left part of the sketch wiindow has to be clicked. Compiling and uploading will then take a while. Cause we've opted for verbose output we can closely follow the process. During the compilation it is recommended to also activate the built-in Serial Monito of the Arduino IDE. To Accomplish this click the top-right button inside the sketch window. The moment the upload has succeeded the Serial Monitor will show the resulting output of the command operations. From time to time on will have to press the black button on the Discovery board itself to see the full result. Keep in mind that we upoload a new firmware to the board when we do a compile-upload cycle. So it happens from time to time that our code allready stzarts producing results befor the board is fully ready. 
+To run the code we first have to compile it and then upload the resulting .bin file via ST-Link to the Discovery board. The Arduino IDE handles this for us. To compile and upload the code the second button to the top-left part of the sketch wiindow has to be clicked. Compiling and uploading will then take a while. Cause we've opted for verbose output we can closely follow the process. During the compilation it is recommended to also activate the built-in Serial Monitor of the Arduino IDE. To accomplish this click the top-right button inside the sketch window. The moment the upload has succeeded the Serial Monitor will show the resulting output of the command operations. From time to time one will have to press the black button on the Discovery board itself to see the full result. Keep in mind that we upoload everytime a new firmware to the board when we do a compile-upload cycle. So it happens that our code allready starts producing results before the firmware has finished uploading. 
 
 <img alt="Raspberry Kernel I2C Confirmed"
      src="https://github.com/RiddleAndCode/ECLet_STM32/blob/master/images/Screen%20Shot%202018-05-19%20at%2020.28.51.png"/>
@@ -204,7 +204,7 @@ To run the code we first have to comopile it and then upload the resulting .bin 
 
 You can find more examples inside the folder of the very same name.
 
-Basically the Arduino Examples have to be put into the Arduino Folder on your host computing system and the two library files "CryptoAuthLib-arduino", "trezor-crypto" and micro-ecc" have to put into the folder "libraries" inside the same Arduino folder. In case it doesn't ecist create on, first.
+Basically the Arduino Examples have to be put into the Arduino Folder on your host computing system and the two library files "CryptoAuthLib-arduino", "trezor-crypto" and micro-ecc" have to put into the folder "libraries" inside the same Arduino folder. In case it doesn't exist, create one first.
 
 
 
