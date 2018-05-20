@@ -1,7 +1,7 @@
 EClet_STM32 by Riddle&Code 
 =====
 
-... is the combination of Atmel's ATECC608A crypto accelerator, Atmel's ATAES132A secure EEPROM, ST-Micros STM32L475 IOT Discovery board, a rewrite of Trezor's crypto libraries for Arduino and an adoption of Atmel's crypto-auth library for ARM Cortex based Arduino boards.
+... is the combination of Atmel's ATECC608A crypto accelerator, Atmel's ATAES132A secure EEPROM, ST-Micros STM32L475 IOT Discovery board, a rewrite of Trezor's crypto libraries for Arduino and an adoption of Atmel's crypto-auth library and micro-ecc library for ARM Cortex based Arduino boards.
 
 Hardware
 ---
@@ -204,7 +204,7 @@ To run the code we first have to comopile it and then upload the resulting .bin 
 
 You can find more examples inside the folder of the very same name.
 
-Basically the Arduino Examples have to be put into the Arduino Folder on your host computing system and the two library files "CryptoAuthLib-arduino" and "trezor-crypto" hav to put i"nto the folder "libraries" inside the same Arduino folder. In case it doesn't ecist create on, first.
+Basically the Arduino Examples have to be put into the Arduino Folder on your host computing system and the two library files "CryptoAuthLib-arduino", "trezor-crypto" and micro-ecc" have to put into the folder "libraries" inside the same Arduino folder. In case it doesn't ecist create on, first.
 
 
 
